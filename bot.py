@@ -61,7 +61,7 @@ def getCityAndDistrict():
     print("-------------------")
 
 def vakitBot():
-  mycursor.execute("SELECT * FROM district ORDER BY id ASC LIMIT 1")
+  mycursor.execute("SELECT * FROM district ORDER BY id ASC")
   myresult = mycursor.fetchall()
 
   for x in myresult:
