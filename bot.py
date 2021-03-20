@@ -10,7 +10,7 @@ import re
 import datetime
 import locale
 
-locale.setlocale(locale.LC_ALL, '')
+locale.setlocale(locale.LC_ALL, "tr_TR")
 
 mydb = mysql.connector.connect(
   host="****",
@@ -91,7 +91,7 @@ def vakitBot():
             each = dateTime.strftime('%d.%m.%Y')
 
           #Kalan günler daha sonra çekilecek
-          if (each == '16.05.2019'):
+          if (each == '20.04.2021'):
             breakControl = False
             break
 
